@@ -28,10 +28,9 @@ class Clase():
 
     def remove_alumno(self,alumno):
 
-        self.alumno.remove(alumno)
+        self.alumnos.remove(alumno)
         # Carmen
-        return self.alumno
-
+        return self.alumnos
     def add_asignatura(self,asignatura):
         self.asignaturas.append(asignatura)
 
@@ -40,11 +39,11 @@ class Clase():
        return mi_aula
         
 
-c1 = Clase()
-print(f'Alumnos: {c1.alumnos}')
-print(f'Aula: {c1.aula}')
-print(f'Profesor: {c1.profesor}')
-print(f'Asignaturas:{ c1.asignaturas}')
+#c1 = Clase()
+#print(f'Alumnos: {c1.alumnos}')
+#print(f'Aula: {c1.aula}')
+#print(f'Profesor: {c1.profesor}')
+#print(f'Asignaturas:{ c1.asignaturas}')
 
 
 c2 = Clase(alumnos=['Adrian','Pedro','Luis'],aula='C15',profesor="Layton",asignaturas=["Programacion1","Programacion2"])
